@@ -1,7 +1,7 @@
 version: '2'
 services:
-  web:
+  eureka:
     restart: "always"
     build: .
-    ports:
-     - "8000:8000"
+    network_mode: "host"
+    
