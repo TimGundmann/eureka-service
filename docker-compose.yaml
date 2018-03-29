@@ -4,4 +4,5 @@ services:
     restart: "always"
     build: .
     network_mode: "host"
+    image: eureka
     
